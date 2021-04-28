@@ -1,0 +1,18 @@
+
+.wrapper{
+	animation: transitionIn 1s 1 ease-in;
+}
+
+
+
+@keyframes transitionIn {
+
+	0%{
+		opacity: 0;
+		transform: rotateX(-15deg);
+	}
+	100%{
+		opacity: 1;
+		transform: rotateX(0);
+	}
+}
